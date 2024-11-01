@@ -11,7 +11,7 @@ import { ImagesModule } from './images/images.module';
     ConfigModule.forRoot({
       isGlobal: true, 
     }),
-    MongooseModule.forRoot('mongodb://arx:SoyUnaClave985*@localhost:27017/?authSource=admin'),
+    MongooseModule.forRoot('mongodb://user:password*@localhost:27017/?authSource=admin'),
     CatsModule,
     ImagesModule,
   ],
